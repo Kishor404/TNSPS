@@ -1,4 +1,4 @@
-const DEFAULT_BASE = { lat: 13.0827, lng: 80.2707, name: "HQ (Default)" };
+const DEFAULT_BASE = { lat: 10.7831, lng: 79.1386, name: "Thanjavur New Bus Stand" };
 
 const STORAGE_KEY = "tnsps_base";
 

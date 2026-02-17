@@ -110,9 +110,15 @@ export default function RiskZones() {
 
       {/* HEADER */}
       <div className="p-4 bg-slate-900 border-b border-white/10 flex justify-between items-center">
-        <div className="flex items-center gap-3">
-          <ShieldAlert className="text-blue-500" size={24} />
-          <h1 className="text-xl font-bold text-white">Zone Intelligence</h1>
+        <div className="relative w-64">
+          <Search className="absolute left-3 top-2 text-slate-500" size={16} />
+          <input
+            type="text"
+            placeholder="Search Zone..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="bg-slate-950 border border-white/10 rounded-xl py-2 pl-10 pr-4 text-sm w-full"
+          />
         </div>
 
         <div className="flex gap-2">
@@ -142,20 +148,6 @@ export default function RiskZones() {
           >
             Reset
           </button>
-        </div>
-      </div>
-
-      {/* SEARCH */}
-      <div className="p-3 bg-slate-900 border-b border-white/10">
-        <div className="relative w-64">
-          <Search className="absolute left-3 top-2 text-slate-500" size={16} />
-          <input
-            type="text"
-            placeholder="Search Zone..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="bg-slate-950 border border-white/10 rounded-xl py-2 pl-10 pr-4 text-sm w-full"
-          />
         </div>
       </div>
 
