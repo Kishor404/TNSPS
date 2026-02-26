@@ -95,12 +95,12 @@ TNSPS provides:
 
 ---
 
-## Screenshots
-
-### Risk Zone Marking
-![Risk Zone](output/route.png)
+## Output
 
 ### Patrol Route Generation
+![Risk Zone](output/route.png)
+
+### Risk Zone Marking
 ![Route Generation](output/highrisk.png)
 
 ---
