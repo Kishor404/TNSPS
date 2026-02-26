@@ -1,16 +1,146 @@
-# React + Vite
+# Tamil Nadu Smart Patrol System (TNSPS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="start">
 
-Currently, two official plugins are available:
+<img src="https://img.shields.io/badge/TNSPS-Smart%20Patrol%20System-0A66C2?style=for-the-badge&logo=police&logoColor=white" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://img.shields.io/badge/Frontend-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 
-## React Compiler
+<img src="https://img.shields.io/badge/AI-Route%20Optimization-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img src="https://img.shields.io/badge/Maps-OpenRouteService-2E7D32?style=for-the-badge&logo=googlemaps&logoColor=white" />
 
-## Expanding the ESLint configuration
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Overview
+
+The **Tamil Nadu Smart Patrol System (TNSPS)** is an AI-powered patrol assistance system designed to improve police patrolling efficiency and coverage. The system allows police officers to mark high-risk areas on a map and automatically generates optimized patrol routes that cover all critical zones within a given radius.
+
+Unlike traditional static patrol routes, TNSPS generates a **new optimized route each time**, reducing predictability and increasing patrol effectiveness.
+
+---
+
+## Problem Statement
+
+Traditional police patrol systems face several challenges:
+
+- Static and predictable patrol routes
+- Inefficient manual route planning
+- High-risk areas may be missed
+- Lack of intelligent patrol optimization
+
+---
+
+## Solution
+
+TNSPS provides:
+
+- High-risk zone mapping
+- AI-powered patrol route generation
+- Dynamic route optimization
+- Intelligent patrol assistance
+
+---
+
+## Features
+
+### High Risk Zone Marking
+- Officers can mark high-risk areas directly on the map
+- Zones are stored and managed in the database
+- Visual identification of risk areas
+
+### AI Patrol Route Generator
+- Generates optimized patrol routes dynamically
+- Covers all high-risk zones within a specified radius
+- Generates a different route each time
+
+### Interactive Map Visualization
+- Real-time route visualization
+- Risk zones highlighted
+- Easy navigation interface
+
+### Dynamic Route Optimization
+- Prevents predictable patrol patterns
+- Improves patrol efficiency
+- Ensures full coverage of critical zones
+
+---
+
+## How Patrol Route AI Works
+
+### Input
+- Officer current location
+- Patrol radius
+- High-risk zones
+
+### Process
+1. Filter high-risk zones within radius
+2. Apply route optimization algorithm
+3. Generate optimal patrol path
+
+### Output
+- Optimized patrol route covering all risk zones
+
+---
+
+## Tech Stack
+
+### Frontend
+- React.js / Flutter
+- JavaScript
+- HTML, CSS
+
+### Map Integration
+- OpenRouteService API / Google Maps API / Leaflet
+
+---
+
+## Screenshots
+
+### Risk Zone Marking
+![Risk Zone](screenshots/risk-zone.png)
+
+### Patrol Route Generation
+![Route Generation](screenshots/route.png)
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/kishor404/TNSPS
+cd TNSPS
+npm install
+npm start
+```
+---
+
+## Benefits
+
+1. Improves patrol efficiency
+2. Ensures high-risk zone coverage
+3. Reduces predictable patrol patterns
+4. Enhances public safety
+5. AI-assisted decision making
+
+---
+
+## Future Enhancements
+
+- Real-time crime data integration
+- Predictive crime hotspot detection
+- Mobile app for officers
+- Live officer tracking
+- Analytics dashboard
+
+## Author
+
+Kishor T
+Fullstack Developer
+
+- GitHub: https://github.com/kishor404
+- LinkedIn: https://linkedin.com/in/kishor404
+
+---
