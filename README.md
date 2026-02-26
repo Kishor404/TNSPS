@@ -98,10 +98,10 @@ TNSPS provides:
 ## Screenshots
 
 ### Risk Zone Marking
-![Risk Zone](screenshots/risk-zone.png)
+![Risk Zone](output/route.png)
 
 ### Patrol Route Generation
-![Route Generation](screenshots/route.png)
+![Route Generation](output/highrisk.png)
 
 ---
 
